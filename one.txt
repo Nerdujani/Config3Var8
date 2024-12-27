@@ -1,0 +1,7 @@
+[data]
+value = 42
+list = [1, 2, 3]
+
+[data.nested]
+sub_value = 99
+sub_list = [10, 20, 30]

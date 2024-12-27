@@ -1,0 +1,30 @@
+[simulation]
+duration = 1000  # Время симуляции в секундах
+step_size = 0.01  # Шаг интегрирования
+
+[simulation.environment]
+gravity = 9.81
+air_density = 1.225
+temperature = 298
+
+[simulation.environment.wind]
+speed = 10
+directions = [0, 90, 180, 270]
+
+[objects]
+count = 3
+
+[[objects.object]]
+mass = 5.0
+initial_velocity = [0, 10, 0]
+position = [0, 0, 0]
+
+[[objects.object]]
+mass = 2.0
+initial_velocity = [5, 0, 0]
+position = [10, 0, 0]
+
+[[objects.object]]
+mass = 10.0
+initial_velocity = [0, -5, 0]
+position = [-5, 5, 0]
